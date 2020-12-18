@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: -10px;
+}
+
+.name {
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+
+.email {
+  position: relative;
+  top: 40px;
+}
+
+#tag-line {
+  margin-top: -10px;
+}
+
+#tag-line .tag-line {
+  position: relative;
+  bottom: 45px;
+  font-style: italic;
+}
+
+
+
+.social {
+  position: relative;
+ 
+}
