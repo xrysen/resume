@@ -16,18 +16,23 @@
 }
 
 #tag-line {
-  margin-top: -10px;
+ height: 30px;
 }
 
 #tag-line .tag-line {
   position: relative;
-  bottom: 45px;
+  bottom: 40px;
   font-style: italic;
 }
 
-
-
 .social {
+  text-align: center;
   position: relative;
- 
+  bottom: 75px;
+  font-size: 40px;
+}
+
+.social a {
+  color: black;
+  margin-right: 10px;
 }

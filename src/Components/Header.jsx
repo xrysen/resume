@@ -14,9 +14,19 @@ const Header = () => {
           <p>(250)-510-3457</p>
         </aside>
       </section>
-      <section id = "tag-line">
+      <section id="tag-line">
         <h2 className="tag-line">Junior Web Developer</h2>
-        <p className="social">Test</p>
+        <p className="social">
+          <a href="https://github.com/xrysen/" target="new">
+            <i className="fab fa-github-square"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sean-oyler-20337370/"
+            target="new"
+          >
+            <i className="fab fa-linkedin"></i>
+          </a>
+        </p>
       </section>
     </div>
   );
