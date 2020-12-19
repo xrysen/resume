@@ -1,4 +1,4 @@
-const data = {
+const skills = {
   languages: ["Javascript", "HTML", "SQL", "CSS", "C", "Ruby"],
   frameworks: ["NodeJs", "React", "Express", "jQuery", "Ajax"],
   databases: ["PostgresSQL"],
@@ -32,6 +32,6 @@ const projects = [
 ]
 
 export {
-  data,
+  skills,
   projects
 }

@@ -3,3 +3,8 @@ body {
   margin-right: 30%;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}

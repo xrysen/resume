@@ -5,7 +5,7 @@ import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Education from "./Components/Education";
 import Experience from "./Components/Experience";
-import { data } from "./data/data"
+import { skills } from "./data/data"
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
       <Summary />
       <hr />
       <Skills
-        languages={data.languages}
-        frameworks={data.frameworks}
-        databases={data.databases}
+        languages={skills.languages}
+        frameworks={skills.frameworks}
+        databases={skills.databases}
       />
       <hr />
       <Projects />
