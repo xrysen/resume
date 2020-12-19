@@ -7,11 +7,11 @@ const Header = () => {
       <section className="header">
         <h1 className="name">Sean Oyler</h1>
         <aside className="email">
-          <button>Download PDF</button>
           <p>
             <a href="mailto:sean.oyler@gmail.com">sean.oyler@gmail.com</a>
           </p>
           <p>(250)-510-3457</p>
+          <p>Chemainus, BC</p>
         </aside>
       </section>
       <section id="tag-line">
