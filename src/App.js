@@ -5,12 +5,7 @@ import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Education from "./Components/Education";
 import Experience from "./Components/Experience";
-
-const data = {
-  languages: ["Javascript", "HTML", "SQL", "CSS", "C", "Ruby"],
-  frameworks: ["NodeJs", "React", "Express", "jQuery", "Ajax"],
-  databases: ["PostgresSQL"],
-};
+import { data } from "./data/data"
 
 function App() {
   return (
