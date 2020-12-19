@@ -6,6 +6,12 @@ import Projects from "./Components/Projects";
 import Education from "./Components/Education";
 import Experience from "./Components/Experience";
 
+const data = {
+  languages: ["Javascript", "HTML", "SQL", "CSS", "C", "Ruby"],
+  frameworks: ["NodeJs", "React", "Express", "jQuery", "Ajax"],
+  databases: ["PostgresSQL"],
+};
+
 function App() {
   return (
     <div className="App">
@@ -13,7 +19,11 @@ function App() {
       <hr />
       <Summary />
       <hr />
-      <Skills />
+      <Skills
+        languages={data.languages}
+        frameworks={data.frameworks}
+        databases={data.databases}
+      />
       <hr />
       <Projects />
       <hr />
