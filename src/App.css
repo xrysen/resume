@@ -13,3 +13,17 @@ ul {
   position: relative;
   margin-left: 400px;
 }
+
+.experience .dates {
+  position: relative;
+  right: 100px;
+}
+
+.experience .location {
+  position: relative;
+  font-size: 1.17em;
+  font-weight: bold;
+  left: 565px;
+  bottom: 80px;
+  
+}

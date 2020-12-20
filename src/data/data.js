@@ -45,8 +45,9 @@ const experience = [
   {
     id: 1,
     company: "Real Canadian Superstore",
-    position: "HABA Department Manager",
+    title: "HABA Department Manager",
     dates: "Oct. 2011 - Sept. 2020",
+    location: "Duncan, BC",
     description: ""
   }
 ]
