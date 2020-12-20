@@ -41,8 +41,19 @@ const education = [
   }
 ]
 
+const experience = [
+  {
+    id: 1,
+    company: "Real Canadian Superstore",
+    position: "HABA Department Manager",
+    dates: "Oct. 2011 - Sept. 2020",
+    description: ""
+  }
+]
+
 export {
   skills,
   projects,
-  education
+  education,
+  experience
 }
