@@ -48,7 +48,14 @@ const experience = [
     title: "HABA Department Manager",
     dates: "Oct. 2011 - Sept. 2020",
     location: "Duncan, BC",
-    description: ""
+    description: [
+      "Assess profit and loss in order to increase sales and decrease financial loss",
+      "Ordering, merchandising, providing customer service",
+      "Leadership, Hiring, employee coaching and development",
+      "Power Equipment Trainer for Highstacker and Powerjack",
+      "Backup Bookkeeping and Store Administration",
+      "Adhere to company standards and ensure that company policies and procedures are followed"
+    ]
   }
 ]
 

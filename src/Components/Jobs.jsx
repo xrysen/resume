@@ -11,6 +11,9 @@ const Jobs = (props) => {
       <p>
         <em>{props.title}</em>
       </p>
+      <ul>
+        <li>jobs</li>
+      </ul>
     </li>
   );
 };
