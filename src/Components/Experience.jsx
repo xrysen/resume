@@ -11,13 +11,15 @@ const Experience = () => {
         dates={job.dates}
         key={job.id}
         location={job.location}
+        description={job.description}
       />
     );
   });
+
   return (
     <section className="experience">
       <h1>Experience</h1>
-      <ul>{positions}</ul>
+      <ul className = "experience">{positions}</ul>
     </section>
   );
 };

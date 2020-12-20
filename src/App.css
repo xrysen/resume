@@ -27,3 +27,8 @@ ul {
   bottom: 80px;
   
 }
+
+.jobTasks {
+  list-style-type: square;
+  margin-left: 50px;
+}
