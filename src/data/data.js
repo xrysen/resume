@@ -31,7 +31,17 @@ const projects = [
   }
 ]
 
+const education = [
+  {
+    id: 1,
+    school: "Lighthouse Labs",
+    diploma: "Full Stack Web Development",
+    dates: "Oct. 2020 - Jan 2021"
+  }
+]
+
 export {
   skills,
-  projects
+  projects,
+  education
 }
