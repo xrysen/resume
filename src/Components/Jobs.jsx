@@ -2,7 +2,6 @@ import React from "react";
 import JobTaskItem from "./JobTaskItem";
 
 const Jobs = (props) => {
-  console.log(props.description);
   const list = props.description.map((listItem) => {
     return <JobTaskItem description = {listItem} />
   })

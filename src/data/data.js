@@ -55,7 +55,7 @@ const experience = [
       "Power Equipment Trainer for Highstacker and Powerjack",
       "Backup Bookkeeping and Store Administration",
       "Adhere to company standards and ensure that company policies and procedures are followed"
-    ]
+    ],
   }
 ]
 
