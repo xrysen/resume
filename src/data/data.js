@@ -36,7 +36,8 @@ const education = [
     id: 1,
     school: "Lighthouse Labs",
     diploma: "Full Stack Web Development",
-    dates: "Oct. 2020 - Jan 2021"
+    dates: "Oct. 2020 - Jan 2021",
+    description: "Topics covered include: HTML, CSS, Javascript, Ruby, React, Rails, SQL, Express, Node, jQuery, Ajax, RESTful API's, Git and Github"
   }
 ]
 

@@ -10,6 +10,7 @@ const EducationListItem = (props) => {
       <p>
         <em>{props.diploma}</em>
       </p>
+      <p>{props.description}</p>
     </li>
   );
 };

@@ -10,6 +10,7 @@ const Education = () => {
         school={item.school}
         dates={item.dates}
         diploma={item.diploma}
+        description={item.description}
       />
     );
   });
