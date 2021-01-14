@@ -11,6 +11,7 @@ const Projects = () => {
         name={project.title}
         description={project.description}
         techStack={project.techStack}
+        link={project.link}
       />
     );
   });

@@ -11,6 +11,7 @@ const Education = () => {
         dates={item.dates}
         diploma={item.diploma}
         description={item.description}
+        summary={item.summary}
       />
     );
   });
