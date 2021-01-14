@@ -11,8 +11,9 @@ const ProjectListItem = (props) => {
   })
   return (
     <li key = {props.id}>
-      <h4><a href = {props.link}>{props.name}</a></h4>
-      <p className="description">{props.description}
+      <p className="description"><span className = "title"><a href = {props.link}>{props.name}</a></span>
+        <br />
+       {props.description}
        <br /> <strong>Tech Stack: </strong> {techStack}
       </p>
     </li>
