@@ -7,46 +7,39 @@ const skills = {
 const projects = [
   {
     id: 1,
+    title: "AC Pixel Editor",
+    techStack: ["HTML5", "CSS", "Javascript", "jQuery"],
+    description: "An in-browser pixel editor aimed to be 100% compatible with Animal Crossing New Horizons style editor",
+    link: "https://github.com/xrysen/pixel-editor"
+  },
+  {
+    id: 2,
     title: "Matchr",
     techStack: ["Typescript", "React", "Node", "Express", "Yelp Fusion API", "SQL"],
     description: "An app that helps two users decide where to eat. Each client is given a choice of restaurants, based on a category, where they can then choose yes or no. Once a match is found, both clients are notified.",
     link: "https://github.com/xrysen/matcher"
   },
   {
-    id: 2,
+    id: 3,
     title: "Matchr - Mobile",
     techStack: ["React-native", "Node", "Express", "SQL", "Yelp Fusion API"],
     description: "The mobile version of Matchr, using React-native",
     link: "https://github.com/xrysen/matchr-mobile"
   },
   {
-    id: 3,
+    id: 4,
     title: "Tadoo",
     techStack: ["jQuery", "Node", "Express", "SQL", "Google Books API", "Yelp Fusion API", "Open Movie Database API"],
     description: 'A “smart” to-do list that takes in a user entry and uses an algorithm to automatically sort the item into one of four categories.',
     link: 'https://github.com/xrysen/smart-to-do-list'
   },
   {
-    id: 4,
+    id: 5,
     title: "Scheduler",
     techStack: ["React", "Axios", "Classnames", "Storybook"],
     description: "A React based project that creates, edits, deletes and keeps track of student meetings with instructor of their choice.",
     link: "https://github.com/xrysen/scheduler"
   },
-  {
-    id: 5,
-    title: "Tweeter",
-    techStack: ["jQuery", "Node"],
-    description: "A basic Twitter clone using Ajax",
-    link: "https://github.com/xrysen/tweeter"
-  },
-  {
-    id: 6,
-    title: "TinyApp",
-    techStack: ["Express", "Node"],
-    description: "A URL shortening service created with RESTful API's",
-    link: "https://github.com/xrysen/tinyapp"
-  }
 ]
 
 const education = [
