@@ -15,7 +15,7 @@ const Header = () => {
         </aside>
       </section>
       <section id="tag-line">
-        <h2 className="tag-line">Junior Web Developer</h2>
+        <h2 className="tag-line">Full Stack Web Developer</h2>
         <p className="social">
           <a href="https://github.com/xrysen/" target="new">
             <i className="fab fa-github-square"></i>
