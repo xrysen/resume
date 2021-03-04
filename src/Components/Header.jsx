@@ -25,6 +25,9 @@ const Header = () => {
           >
             <i className="fab fa-linkedin"></i>
           </a>
+          <a href="https://xrysen.github.io/portfolio/" target="new">
+          <i class="fas fa-globe"></i>
+          </a>
         </p>
       </section>
     </div>
