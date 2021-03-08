@@ -3,9 +3,9 @@ import React from "react";
 const EducationListItem = (props) => {
   return (
     <li>
-      <h3>
+      <h3 className = "eduTitle">
         {props.school}
-        <span className="dates">{props.dates}</span>
+        <span>{props.dates}</span>
       </h3>
       <p>
         <em>{props.diploma}</em>

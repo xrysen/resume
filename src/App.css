@@ -14,6 +14,12 @@ ul {
   margin-left: 400px;
 }
 
+.eduTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .experience .location {
   position: relative;
   font-size: 1.17em;
