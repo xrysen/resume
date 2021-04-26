@@ -7,38 +7,44 @@ const skills = {
 const projects = [
   {
     id: 1,
+    title: "D&D Character Creator",
+    techStack: ["React", "Django"],
+    description: "In development: A web app that let's a user generate a printable character sheet for D&D5e after selecting various options."
+  },
+  {
+    id: 2,
     title: "AC Pixel Editor",
     techStack: ["HTML5", "CSS", "Javascript", "jQuery"],
     description: "An in-browser pixel editor aimed to be 100% compatible with Animal Crossing New Horizons style editor",
     link: "https://github.com/xrysen/pixel-editor"
   },
   {
-    id: 2,
+    id: 3,
+    title: "Tetris.js",
+    techStack: ["HTML5", "CSS", "Javascript"],
+    description: "A simple Tetris clone for the browser",
+    link: "https://github.com/xrysen/tetris.js"
+  },
+  {
+    id: 4,
     title: "Matchr",
     techStack: ["Typescript", "React", "Node", "Express", "Yelp Fusion API", "SQL"],
     description: "An app that helps two users decide where to eat. Each client is given a choice of restaurants, based on a category, where they can then choose yes or no. Once a match is found, both clients are notified.",
     link: "https://github.com/xrysen/matcher"
   },
   {
-    id: 3,
+    id: 5,
     title: "Matchr - Mobile",
     techStack: ["React-native", "Node", "Express", "SQL", "Yelp Fusion API"],
     description: "The mobile version of Matchr, using React-native",
     link: "https://github.com/xrysen/matchr-mobile"
   },
   {
-    id: 4,
+    id: 6,
     title: "Tadoo",
     techStack: ["jQuery", "Node", "Express", "SQL", "Google Books API", "Yelp Fusion API", "Open Movie Database API"],
     description: 'A “smart” to-do list that takes in a user entry and uses an algorithm to automatically sort the item into one of four categories.',
     link: 'https://github.com/xrysen/smart-to-do-list'
-  },
-  {
-    id: 5,
-    title: "Scheduler",
-    techStack: ["React", "Axios", "Classnames", "Storybook"],
-    description: "A React based project that creates, edits, deletes and keeps track of student meetings with instructor of their choice.",
-    link: "https://github.com/xrysen/scheduler"
   },
 ]
 
