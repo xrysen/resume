@@ -20,7 +20,7 @@ const Header = () => {
             <i className="fab fa-github-square"></i>
           </a>
           <a
-            href="www.linkedin.com/in/sean-oyler"
+            href="https://www.linkedin.com/in/sean-oyler"
             target="new"
           >
             <i className="fab fa-linkedin"></i>
