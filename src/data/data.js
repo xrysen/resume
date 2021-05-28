@@ -20,20 +20,27 @@ const projects = [
   },
   {
     id: 3,
+    title: "The Best Product Ever",
+    techStack: ["React, React Bootstrap, Auth0, Stripe"],
+    description: "A simple one product Ecom site that utilizes Auth0 for login and Stripe for payment processing",
+    link: "https://github.com/xrysen/bestProductEver"
+  },
+  {
+    id: 4,
     title: "Tetris.js",
     techStack: ["HTML5", "CSS", "Javascript"],
     description: "A simple Tetris clone for the browser",
     link: "https://github.com/xrysen/tetris.js"
   },
   {
-    id: 4,
+    id: 5,
     title: "Matchr",
     techStack: ["Typescript", "React", "Node", "Express", "Yelp Fusion API", "SQL"],
     description: "An app that helps two users decide where to eat. Each client is given a choice of restaurants, based on a category, where they can then choose yes or no. Once a match is found, both clients are notified.",
     link: "https://github.com/xrysen/matcher"
   },
   {
-    id: 5,
+    id: 6,
     title: "Matchr - Mobile",
     techStack: ["React-native", "Node", "Express", "SQL", "Yelp Fusion API"],
     description: "The mobile version of Matchr, using React-native",
