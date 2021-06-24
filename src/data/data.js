@@ -1,5 +1,5 @@
 const skills = {
-  languages: ["Javascript", "HTML", "SQL", "CSS", "C", "Python", "Ruby"],
+  languages: ["Javascript", "HTML", "SQL", "CSS", "C", "PHP", "Python", "Ruby"],
   frameworks: ["NodeJs", "React", "React-native", "Express", "jQuery", "Django", "Ajax"],
   databases: ["PostgresSQL"],
 };
